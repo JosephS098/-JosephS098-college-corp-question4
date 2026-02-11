@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.set_page_config(page_title="QR Code Quiz 1", page_icon="🧠")
+st.set_page_config(page_title="QR Code Quiz 4", page_icon="🧠")
 
 
 st.title("🧩 College Corps Mid-Year Workshop!")
 st.markdown("<h3 style='color:#4CAF50;'>Let's see if you can solve this!</h3>", unsafe_allow_html=True)
-question = "When was the College Corps Launched?"
-choices = ["2019", "2020", "2021", "2022"]
-correct_answer = "2021"
+question = "How many communication styles are there?"
+choices = ["2", "4", "3", "5"]
+correct_answer = "4"
 
 
 if "answered_correctly" not in st.session_state:
